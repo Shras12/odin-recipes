@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 40px;
+  font-weight: 40;
+  text-align: center;
+  color: rgb(5, 128, 28);
+  background-color: rgb(231, 228, 221);
+  margin: 20px;
+  padding: 10px;
+}
+
+ul {
+  font-family: sans-serif, "Times New Roman", Times;
+  font-size: 18px;
+  height: 12px;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 10px;
+  background-color: rgb(101, 133, 103);
+  padding: 10px;
+  margin: 10px 30px;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+a:focus {
+  text-decoration: none;
+  color: yellow;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: rgb(5, 128, 28);
+}
